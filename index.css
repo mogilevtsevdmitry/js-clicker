@@ -24,6 +24,29 @@ a:hover {
 
 .start {
   font-size: 1.5rem;
+  padding: 5px;
+  border: 1px solid #16D9E3;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.login {
+  margin-top: 5px;
+  font-size: 1.5rem;
+  padding: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border: 1px solid blue;
+  border-radius: 5px;
+}
+
+.form-auth {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
 }
 
 .restart {
